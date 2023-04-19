@@ -1,0 +1,46 @@
+/* Apply a background color to the body */
+body {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the form */
+  form {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the form elements */
+  label, input, select, button {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
